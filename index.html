@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Font Awesomes-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Optional CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google  Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+      <!--Main Div-->
+      <div class="main text-center">
+        <!--Header-->
+        <div class="header"><span class="h1">Rock Paper Scissors</span></div>
+        <br>
+        <!--Scores Sections-->
+        <div class="score-section h3">
+          <span class="user score">YOU</span>
+          <span id="user-score">0</span>
+          <br>
+          <span class="com score">COM</span>
+          <span id="computer-score">0</span>
+          
+        </div>
+        <br>
+        <br>
+        <div class="container">
+          <!--Buttons-->
+          <div class="row">
+            <div class="col-sm-4">
+              <button onclick="playGame(this)" id="paper" class="btn btns"  value="paper"><i class="far fa-hand-paper"></i></button>
+              <div>
+                <span class="h6">Paper</span>
+              </div>  
+            </div>
+            <div class="col-sm-4">
+              <button onclick="playGame(this)" id="rock" class="btn btns"  value="rock"><i class="far fa-hand-rock"></i></button>
+              <div>
+                <span class="h6">Rock</span> 
+              </div>  
+            </div>
+
+            <div class="col-sm-4">
+              <button onclick="playGame(this)" id="scissors" class="btn btns"  value="scissors"><i class="far fa-hand-scissors"></i></button>
+              <div>
+                <span class="h6">Scissors</span> 
+              </div>  
+            </div>
+          </div>
+       </div>
+       <br>
+       <br>
+
+        <!--Result Section-->
+        <div class="h5" id="res">Result</div>
+
+        <!--Footer-->
+        <div class="footer"><span class="h5">Developer Name: Hamza</span></div>
+        <br>
+
+      </div>
+    </div>
+          
+    <!-- Optional JavaScript -->
+    <script src="js/app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
