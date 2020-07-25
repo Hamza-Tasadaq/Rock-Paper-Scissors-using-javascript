@@ -1,0 +1,65 @@
+/*****body Styling****
+*********************/
+html, body {
+    height: auto;
+    margin: 0;
+  }
+/****Main div Styling**
+**********************/
+.main{
+    background-color: #1D2228 !important;
+    height: 100% !important;
+    
+}
+/*****header Styling****
+***********************/
+.h1{
+    color: #FB8122;
+    padding: 10px;
+    border-radius: 40px;
+    font-family: 'Ceviche One', cursive;
+    font-size: 90px;
+}
+
+/*****Score Styling****
+***********************/
+.score-section{
+    color: #E1E2E2;
+    font-family: 'Knewave', cursive;
+}
+
+/****Styling Buttons***
+**********************/
+.btns{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    font-size: 100px;
+    margin: 10px;
+}
+.h6{
+    color: #FB8122;
+}
+/****Footer Styling*****
+***********************/
+.h5{
+    color: #FB8122;
+    font-family: 'Knewave', cursive;
+}
+.footer{
+    margin-top: 38px;
+}
+
+/****Responsive Screen**
+***********************/
+@media screen and (max-width: 770px) {
+    .btns{
+        height: 140px;
+        width: 140px;
+        font-size: 70px;
+        margin: 10px;
+    }
+    .footer{
+        margin-top: 98px;
+    }
+}
